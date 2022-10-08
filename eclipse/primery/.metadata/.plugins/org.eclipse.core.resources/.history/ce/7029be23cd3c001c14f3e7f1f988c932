@@ -1,0 +1,63 @@
+package nesne;
+
+public class Class {
+  //int x;//ÖRNEK1
+	int b;//örnek3
+	public static void main(String[] args) {	
+		
+		// ÖRNEK1
+		/*Class t1=new Class();
+		t1.x=5;
+		System.out.println("x'in ilk deðeri:\t " + t1.x);
+		t1.deðiþtir(t1);
+		System.out.println("x'in son deðeri:\t " + t1.x);
+		
+		
+
+	}
+	void deðiþtir(Class t1 )
+	{
+
+	t1.x=t1.x+10;
+		
+	}*/
+		//ÖRNEK2
+		
+		/*int dizi[]= {5,4,9};//dizi tanýmlamdý ve dizi belllekteki sýralý yerini aldý
+		System.out.println("dizi[0]'ýn ilk deðeri : " + dizi[0]);
+		dizimetod(dizi);//dizi[] olarak tanýmlaladýðýda hata verdi.
+		System.out.println("dizi[0]'ýn son deðeri : " + dizi[0]);
+
+	}
+
+	 static void dizimetod(int dizi[]) //ÖRNEK2= int dizi[] olarak tanýmladým dikkkat et
+	{
+		dizi[0]=dizi[0]+10;
+	}*/
+		
+		//ÖRNEK3
+		
+		int a=4;
+		deðiþtir(a);
+		System.out.println(a);
+		
+		Class d1=new Class();
+		d1.b=10;
+		deðiþtir1(d1);
+		System.out.println(d1.b);
+	
+		
+}
+	 static void deðiþtir(int a)
+	{
+
+		a=a+15;
+		
+	}
+	
+	 static void deðiþtir1(Class d1) //ÖRENEK3 
+	{
+		d1.b=d1.b+10;
+	}
+	
+}

@@ -1,0 +1,33 @@
+package src.bankAccount;
+
+import java.util.Scanner;
+
+public class Bankamoundttest {
+
+	public static void main(String[] args) {
+		BankAccount Bankact1 =new BankAccount("halil maral",50.00);
+		BankAccount Bankact2 =new BankAccount("hamza maral",-15.87);
+        System.out.println("nesne 1'in ilk bakiyesi :"+Bankact1.getBalance() );
+        System.out.println("nesne 2'in ilk bakiyesi :"+Bankact2.getBalance() );
+
+        
+        Scanner input=new Scanner(System.in);
+        System.out.println("\n BankAct1'den depozito tutarýný giriniz:");
+        double deositAmount=input.nextDouble();
+        System.out.println("\n depozit miktarýnýz+depositAmount"+deositAmount);
+        Bankact1.deposit(deositAmount);
+        
+        System.out.println("\n nesne1'in ismi:"+ Bankact1.getName()+ "bakiyesi:"+ Bankact1.getBalance());//getName() ile biz private fonsiyonun içindeki deðeri okuruz
+        System.out.println("\n nesne2'in ismi:"+ Bankact2.getName()+ "bakiyesi:"+ Bankact2.getBalance());
+
+        System.out.println("\n BankAct2'den depozito tutarýný giriniz:");
+         deositAmount=input.nextDouble();//baþta double olark(satýr15) tanýmlandýðý için tekrar double kullanýlmasý gerekmez. hepsi hesaplanýþ
+        System.out.println("\n depozit miktarýnýz + depositAmount"+deositAmount);
+        Bankact2.deposit(deositAmount);
+        
+        System.out.println("\n nesne1'in ismi:"+ Bankact1.getName()+ "\tbakiyesi:"+ Bankact1.getBalance());
+        System.out.println("\n nesne2'in ismi:"+ Bankact2.getName()+ "\tbakiyesi:"+ Bankact2.getBalance());
+        
+	}
+
+}

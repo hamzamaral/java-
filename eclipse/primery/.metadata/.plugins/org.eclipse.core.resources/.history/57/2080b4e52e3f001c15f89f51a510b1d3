@@ -1,0 +1,26 @@
+package ders5;
+
+public class Ders5 {
+
+	public static void main(String[] args) {
+		
+		/*System.out.println("doðum tarihi: ");
+		int item=19991117;
+		byte a=  (byte) ( item % 100);
+		System.out.println("gün : " + a);
+		item=item/100;
+		byte b=  (byte) ( item % 100);
+		System.out.println("ay : " + b);
+		item=item/100;
+		System.out.println("yýl : " + item);*/
+		
+		byte gun = 25
+		byte ay = 12
+		short yil = 2000;
+		int tarih = yil * 10000 + ay * 100 + gun
+		System.out.println(tarih);
+		
+		
+	}
+
+}

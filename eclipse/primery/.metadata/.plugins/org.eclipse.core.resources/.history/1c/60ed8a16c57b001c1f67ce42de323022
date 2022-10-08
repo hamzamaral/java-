@@ -1,0 +1,27 @@
+package bahardönemi;
+
+public class Müzik extends Medya {
+
+	
+
+	public void isim(String k) {
+	medyabaþlýðý=k;
+	System.out.println(medyabaþlýðý);
+
+		
+	}
+
+	@Override
+	public void yýl(int y) {
+		çýkýþyýlý=y;
+		System.out.println(çýkýþyýlý);
+	}
+
+	public void adet(int l) {
+		satýþadedi=l;
+		System.out.println(satýþadedi);
+
+		
+	}
+
+}

@@ -1,0 +1,47 @@
+import java.io.*;
+
+import javax.print.DocFlavor.STRING;
+
+public class File4 {
+	
+	public static void main(String[] args) {
+	       /* File f=new File("E:\\bilgisayar m 2\\Java\\GiriþÇýkýþÝþlemleri\\ornekKlasör");
+	        		f.mkdir();//örnek klosaör oluþturma yarar.*/
+	       File f1=new File("E:\\bilgisayar m 2\\Java\\GiriþÇýkýþÝþlemleri\\veri2.txt");
+	       
+	   
+	       try 
+	       {
+	    	   
+	    	   
+	    	   f1.createNewFile();
+	    	   //   yazma iþlemleri
+	      
+	       FileWriter yaz=new FileWriter(f1);
+	       String yazdýr="sen itsin oðlum sen adam  deðilsin ";
+	       yaz.write(yazdýr);
+	       yaz.close();
+	       char veriler1[] =new char[(int)f1.length()];
+	    	   FileReader f2=new FileReader(f1);
+	    	   f2.read(veriler1);
+	    	   String okunan=String.copyValueOf(veriler1);
+	    	   //String okunan =new String(veriler1);
+	    	   System.out.println(okunan);
+	       }
+	       catch (FileNotFoundException e) {
+	    	   
+	    	   e.printStackTrace();
+	    	   
+	       }
+	       catch (Exception e) {
+
+	       e.printStackTrace();
+	       }
+	       
+
+		
+			
+		}
+
+	
+}

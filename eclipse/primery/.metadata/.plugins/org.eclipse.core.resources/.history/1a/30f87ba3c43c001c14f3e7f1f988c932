@@ -1,0 +1,22 @@
+package nesne;
+
+public class Class {
+  int x;//ÖRNEK1
+	public static void main(String[] args) {	
+		
+		// ÖRNEK1
+		Class t1=new Class();
+		t1.x=5;
+		System.out.println("x'in ilk deðeri:\t " + t1.x);
+		t1.deðiþtir(t1.x);
+		System.out.println("x'in son deðeri:\t " + t1.x);
+		
+		
+
+	}
+	void deðiþtir(int a)
+	{
+		x=x+10;
+	}
+
+}

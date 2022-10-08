@@ -1,0 +1,23 @@
+package bahardönemi;
+
+public abstract class Medya 
+{
+	public int çıkışyılı;
+	public String medyabaşlığı;
+	public int satışadedi;
+
+	public abstract void isim();
+	
+	public abstract void yıl();
+	
+	public abstract void adet();
+
+	public void yıl(int y) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+	
+}

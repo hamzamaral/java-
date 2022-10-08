@@ -1,0 +1,24 @@
+import javax.swing.JLabel;
+import javax.swing.tree.DefaultTreeCellEditor.EditorContainer;
+
+public class JLabel1 {
+	super("hamza");
+	public JLabel1() 
+	{
+		Container con =getContentPane();
+		con.setLayout(new GridLayout());
+	}
+
+	public static void main(String[] args) {
+
+	JLabel ör1 =new JLabel();
+	ör1.setText("örnek1");
+	
+	JLabel ör2 =new JLabel();
+	ör2.setText("örnek2");
+	JLabel ör3=new JLabel();
+	ör3.setText("");
+		
+	}
+
+}

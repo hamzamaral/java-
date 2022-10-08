@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+E:\bilgisayar m 2\nesne yönenimli program\eclipse\.metadata\.plugins\org.eclipse.jdt.core
+3413725848.index
+3935020228.index

@@ -1,0 +1,21 @@
+package kitap.bölüm3.HALIT;
+
+public class BAVO {
+
+	public static void main(String[] args) {
+		double sayý1 = 345.2;//double türünde veri deðierini int veri
+		//türüne  çevirerek virgülden sonraki kýsmýný atabiliriz
+		int sayý2=(int)sayý1;
+		System.out.println(sayý2);
+		System.out.println(sayý1);
+		
+		int pat1=450;
+		double pat2=(double)pat1;
+		System.out.println(pat2+0.12);
+		
+		
+		
+
+	}
+
+}

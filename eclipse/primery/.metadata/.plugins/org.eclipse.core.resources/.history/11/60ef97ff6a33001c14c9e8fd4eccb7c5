@@ -1,0 +1,55 @@
+package metodçalýþma1;
+
+import java.util.Scanner;
+
+public class Çaliþma2 {
+//static String adý , soyadý;//(5-18 satýr) static metodlar icerinde  olmayan bir deðer geri döndürülemez bu yuzden "static" kullanýlýr
+	/*public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String ad, soyad;//kullanmasakda olur
+		deðeral("mehmet","karataþ");
+		yazdýr();
+
+	}
+	static void deðeral(String ad,String soyad)
+	{
+		adý=ad;
+		soyadý=soyad;
+	}
+static void yazdýr() {
+	System.out.println("tam isim:"+ adý + " " + soyadý);
+}*/
+	
+		/*public static void main(String[] args) {
+			int dizi[] =new int [] {1,4,7};
+			islemyap(dizi);
+			for (int i:dizi)
+				System.out.println(i);
+					
+		}
+		
+	static void islemyap(int dizi[])
+	{
+		for(int i=0;i<3;i++)
+			{
+			dizi[i]=i*i;
+		}
+	}*/
+	static int overloading1(int a , double b) {
+		return a;
+		
+	}
+	
+	static int overloading1(double b,int a) {
+		return a;
+	}
+	public static void main(String[] args) {
+		
+		int k=overloading1(5,6.2);
+		int y=overloading1(4,7.3);
+		System.out.println(k + "\n" + y);
+		
+	}
+	
+}
+

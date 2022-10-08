@@ -1,0 +1,29 @@
+package hafta5Ý1.pratik.demo;
+
+import hafta5Ý1.pratik.sekil.Kutu;
+
+public class KutuDemo {
+
+	public static void main(String[] args) {
+		Kutu kutu1;//refarans deðiþkeni
+		
+		kutu1 = new Kutu(3, 5, 7);
+		
+		System.out.println("Kutu1 Geniþlik: " + kutu1.genislik);
+		System.out.println("Kutu1 Derinlik: " + kutu1.derinlik);
+		System.out.println("Kutu1 Yükseklik: " + kutu1.yukseklik);
+		System.out.println("Toplam kutu sayýsý: " + Kutu.toplamKutuSayisi);
+
+		System.out.println("\n--------------\n");
+		
+		Kutu kutu2;
+		kutu2 = new Kutu(2, 4, 6);
+		
+		System.out.println("Kutu2 Geniþlik: " + kutu2.genislik);
+		System.out.println("Kutu2 Derinlik: " + kutu2.derinlik);
+		System.out.println("Kutu2 Yükseklik: " + kutu2.yukseklik);
+		System.out.println("Toplam kutu sayýsý: " + Kutu.toplamKutuSayisi);
+
+	}
+
+}

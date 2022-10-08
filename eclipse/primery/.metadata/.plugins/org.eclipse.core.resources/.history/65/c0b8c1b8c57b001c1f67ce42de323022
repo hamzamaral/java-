@@ -1,0 +1,18 @@
+package bahardönemi;
+
+public class Demo {
+
+	public static void main(String[] args) 
+	{
+		Müzik mz1=new Müzik();
+		mz1.isim("ehlenjg");
+		mz1.adet(5);
+		mz1.yýl(4);
+		mz1.hashCode();
+		Film fm1=new Film();
+		fm1.isim("ehlenjg");
+		fm1.adet(5);
+		fm1.yýl(4);
+	}
+	
+}

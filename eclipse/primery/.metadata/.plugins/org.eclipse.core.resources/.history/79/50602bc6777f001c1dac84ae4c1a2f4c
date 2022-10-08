@@ -1,0 +1,18 @@
+import java.io.File;
+
+
+public class File2 {
+
+	public static void main(String[] args) {
+
+		File f=new File("E:\\bilgisayar m 2\\Java\\GiriþÇýkýþÝþlemleri\\ornek.txt");
+		
+		System.out.println("txt dosyasýný ismi : "+f.getName());
+		System.out.println("txt dosyasýnýn yolu : "+f.getAbsolutePath());
+		System.out.println("txt dosyasýný silme : "+f.delete());
+		System.out.println("txt dosyasý var mý? kontrol et : "+f.exists());
+		//System.out.println("txt dosyasýnýb ismi : "+);
+		
+	}
+
+}

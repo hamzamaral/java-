@@ -1,0 +1,15 @@
+package ders5;
+
+public class Ders5 {
+
+	public static void main(String[] args) {
+		
+		
+		int sayacsayac;
+		int OgrSayisi = 583;
+		System.out.println(OgrSayisi);
+		
+		
+	}
+
+}

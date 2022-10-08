@@ -1,0 +1,14 @@
+package kitap.bölüm3.HALIT;
+
+public class Sayfa80 {
+
+	public Sayfa80() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

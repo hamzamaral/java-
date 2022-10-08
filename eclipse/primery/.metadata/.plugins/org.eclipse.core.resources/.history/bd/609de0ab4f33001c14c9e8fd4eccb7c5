@@ -1,0 +1,20 @@
+package metodçalýþma1;
+
+public class Çaliþma2 {
+static String adý , soyadý;// static metodlar icerinde  olmayan bir deðer geri döndürülemez bu yuzden "static" kullanýlýr
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		deðeral("mehmet","karataþ");
+		yazdýr();
+
+	}
+	static void deðeral(String ad,String soyad)
+	{
+		adý=ad;
+		soyadý=soyad;
+	}
+static void yazdýr() {
+	System.out.println("tam isim:"+ adý + " " + soyadý);
+}
+}

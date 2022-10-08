@@ -1,0 +1,13 @@
+package nesne;
+
+public class Class {
+  
+	static String yazý="hamza";
+	public static void main(String[] args) {		
+		System.out.println(yazý);//static yani sýnýf deðiþkenine nesne olusturulmadan ulaþabiliriz
+		
+		
+
+	}
+
+}

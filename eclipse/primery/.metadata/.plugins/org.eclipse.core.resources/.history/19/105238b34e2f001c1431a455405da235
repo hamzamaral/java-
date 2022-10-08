@@ -1,0 +1,57 @@
+package labmain;
+
+//import java.util.Scanner;
+
+ import javax.swing.JOptionPane;
+
+public class LAB1 {
+
+	 //private Object system;
+	
+	public static void main(String[] args) {
+		String satýr1="There are two ways of spreading light:";
+        String satýr2="To be the candle, or the mirror that reflects it";
+        System.out.println(satýr1+"\n\n"+satýr2);//"\n" bir alt satýra geç komutu verir
+        
+        JOptionPane.showMessageDialog(null, satýr1+ "\n\n" + satýr2);
+		
+		
+	/*	String satýr1="There are two ways of spreading light:";
+        String satýr2="To be the candle, or the mirror that reflects it";
+        
+        System.out.println("\t\""+satýr1+);// buraya bak*/
+		 
+		
+		/*int gun,ay,yýl;
+		Scanner konsoloku = new Scanner(System.in);//diþarýdan her tür bilgiyi içeri aktarýr
+		System.out.println("Doðum tarihinizi gün ay ve yýl olarak giriniz:");
+		gun=konsoloku.nextInt();
+		ay=konsoloku.nextInt();
+		yýl=konsoloku.nextInt();
+		
+		System.out.println("tebrikler doðum tariiniz:"+ gun + "-" + ay+ "-" + yýl);*/
+		
+		
+	
+		/* a,b,c;
+		int d,e,f,k,h;
+		Scanner konsoloku = new Scanner(System.in);
+		System.out.println("iþlem yapmak istediðiniz ssayýlaý girin:");
+		a=konsoloku.nextInt();
+		b=konsoloku.nextInt();
+		c=konsoloku.nextInt();
+		
+		d=a+b+c;
+		e=a-b-c;
+		f=a*b*c;
+		k=a*(b+c);
+		h=a*b+c;
+		System.out.println((a*(b+c) == k) +"eþit deðil" + (a*b+c == h));
+		System.out.println(a +"*"+"("+ b +"+"+c+")"+"="+k+" eþit deðil " + h);*/
+		
+		
+		
+		
+	}
+
+}

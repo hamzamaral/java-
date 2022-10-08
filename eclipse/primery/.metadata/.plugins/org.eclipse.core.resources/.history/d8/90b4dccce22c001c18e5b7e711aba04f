@@ -1,0 +1,26 @@
+package kitap.bölüm3.HALIT;
+
+public class Sayfa80 {
+
+	public static void main(String[] args) {
+		//diðer deðiþkenlerdekiveriler string veri türüne dönüþtürme
+		long a= 5465125;
+				String deðer1= String.valeuOf(a);
+				String deðer2=long.tostring(a);
+		float b =311.123f;
+		 string deðer3=string.valeuOf(b);
+		 string deðer4= float.tostring(b);
+		byte c=11;
+		 string deðer5= String.valueOf(c);
+		 string deðer6=byce.tostring(c);
+		 
+		System.out.println(deðer1);
+		System.out.println(deðer2);
+		System.out.println(deðer3);
+		System.out.println(deðer4);
+		System.out.println(deðer5);
+		System.out.println(deðer6);
+
+	}
+
+}

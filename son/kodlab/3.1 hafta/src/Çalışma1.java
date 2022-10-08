@@ -1,0 +1,63 @@
+
+ 
+public class Çalýþma1 {
+	static int x,y;//50-60 satýrlar için kullanýlmiþtýr
+
+	public static void main(String[] arg) {
+
+	/*ekranayaz();//erkana yaz medodu caðýrýyoruz
+	
+	
+	// geriye bir deðer döndürmüyorsak  "void "" kullanýlýr
+	static void  ekranayaz() {
+		
+		 System.out.println(3*5);
+	}*/
+		
+	/*
+	// paramere almayan fakat geriye bir deðer gönderen metodlara bir örnek
+	 String isim=yazdýr();
+		System.out.println(isim);
+	}
+		// geri döndürülecek deðer  string olduðu için  void yerine strig kullanýlmýþtýr
+		static String yazdýr() 
+		{
+			String ad = "hamza maral";
+			return ad;// geri göndürelecek bir deðer olduðu için "return kullanýlmýþtýr."
+				
+		}
+	*/
+	/*int d,h,t;
+	hesapla(4,5,6);// parametre gönderiyoruz//
+	
+		
+	}
+	// geri dönüþ deðeri yok  bu nedenle void kullanýlmýþtýr
+	static void hesapla(int a,int b,int c) {
+		System.out.println(a*b+c);
+	}*/
+		/*int i,j,k;
+		hesapla(5,8,7);// parametre gönderiyoruz//
+		//PARAMETRELERÝN DEÐERÝNÝ DEÐÝÞTÝRMEK ZORUNDA DEÐÝLÝZ.
+			
+		}
+		// geri dönüþ deðeri yok  bu nedenle void kullanýlmýþtýr
+		static void hesapla(int a,int b,int c) {
+			System.out.println(a*b+c);}*/
+	int a,b;
+	iþlem(5,17);
+	hesaplanmiþ();
+	
+	}
+	static void iþlem( int c ,int d) {
+		x= c;
+		y=d;
+		
+	}
+	
+	static void hesaplanmiþ() {
+		System.out.println("x'in deðeri:"+x);
+		System.out.println("y'in deðeri:"+y);
+
+	}
+}

@@ -1,0 +1,11 @@
+package kitap.bölüm3.HALIT;
+
+public class BAVO {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("laleler");
+
+	}
+
+}

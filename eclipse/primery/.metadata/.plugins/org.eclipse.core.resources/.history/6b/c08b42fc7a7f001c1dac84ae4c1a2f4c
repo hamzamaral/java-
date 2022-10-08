@@ -1,0 +1,16 @@
+import java.io.File;
+
+public class File3 {
+
+	public static void main(String[] args) {
+       /* File f=new File("E:\\bilgisayar m 2\\Java\\GirişÇıkışİşlemleri\\ornekKlasör");
+        		f.mkdir();//örnek klosaör oluşturma yarar.*/
+       File f=new File("E:\\bilgisayar m 2\\Java\\GirişÇıkışİşlemleri\\ornek.txt");
+       File f2=new File("E:\\bilgisayar m 2\\Java\\GirişÇıkışİşlemleri\\veri.txt");
+       f.renameTo(f2);
+
+	
+		
+	}
+
+}

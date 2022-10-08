@@ -1,0 +1,331 @@
+package ödev10;
+
+public class DanýþmanHoca3 extends GeliþimÜniversitesi {
+
+	public int öðrenciSayýsý;
+	public  String branþ;
+	public String öðrenciBilgileriGöster(String c) {
+		
+		return c;
+	}
+	public Double öðrenciBilgilerinideðiþtir(double d) {
+		
+		return d;
+	}
+	
+}
+
+class öðrenci11 extends DanýþmanHoca3
+{
+	/**
+	 oðrenci sýnýfý private olarak olusturulmuþtur.
+	  bu yuzden diþardan herkes bu sýnýfa eriþemez
+	 */
+	
+	
+	private String DanýþmaHocaÝsim;
+	public String getDanýþmaHocaÝsim() {
+		return DanýþmaHocaÝsim;
+	}
+	public void setDanýþmaHocaÝsim(String danýþmaHocaÝsim) {
+		DanýþmaHocaÝsim = danýþmaHocaÝsim;
+	}
+	private String HaftalýkÇalýþmaProgramý;
+	private double ortalama;
+	private String dönem;
+	private int AlabileceðiToplaKredi;
+	@SuppressWarnings("unused")
+	public String KrediAlabilirmi(double b) //
+	{
+		if(3.0<b&&b<3.49) {
+	    return "3 kredi alabilir";
+		}
+		else if(3.5<b) {
+			return "6 kredi alabilir";
+		}
+		else  {
+			return "kredi alamaz";
+		}
+	}
+	public String getHaftalýkÇalýþmaProgramý() {
+		return HaftalýkÇalýþmaProgramý;
+	}
+	public void setHaftalýkÇalýþmaProgramý(String haftalýkÇalýþmaProgramý) {
+		HaftalýkÇalýþmaProgramý = haftalýkÇalýþmaProgramý;
+	}
+	
+	public double getOrtalama() {
+		return ortalama;
+	}
+	public void setOrtalama(double ortalama) {
+		this.ortalama = ortalama;
+	}
+	public String getDönem() {
+		return dönem;
+	}
+	public void setDönem(String dönem) {
+		this.dönem = dönem;
+	}
+	public int getAlabileceðiToplaKredi() {
+		return AlabileceðiToplaKredi;
+	}
+	public void setAlabileceðiToplaKredi(int alabileceðiToplaKredi) {
+		AlabileceðiToplaKredi = alabileceðiToplaKredi;
+	}
+	
+	
+	
+}
+
+
+class öðrenci12 extends DanýþmanHoca3
+{
+	/**
+	 oðrenci sýnýfý private olarak olusturulmuþtur.
+	  bu yuzden diþardan herkes bu sýnýfa eriþemez
+	 */
+	
+	
+	private String DanýþmaHocaÝsim;
+	public String getDanýþmaHocaÝsim() {
+		return DanýþmaHocaÝsim;
+	}
+	public void setDanýþmaHocaÝsim(String danýþmaHocaÝsim) {
+		DanýþmaHocaÝsim = danýþmaHocaÝsim;
+	}
+	private String HaftalýkÇalýþmaProgramý;
+	private double ortalama;
+	private String dönem;
+	private int AlabileceðiToplaKredi;
+	@SuppressWarnings("unused")
+	public String KrediAlabilirmi(double b) //
+	{
+		if(3.0<b&&b<3.49) {
+	    return "3 kredi alabilir";
+		}
+		else if(3.5<b) {
+			return "6 kredi alabilir";
+		}
+		else  {
+			return "kredi alamaz";
+		}
+	}
+	public String getHaftalýkÇalýþmaProgramý() {
+		return HaftalýkÇalýþmaProgramý;
+	}
+	public void setHaftalýkÇalýþmaProgramý(String haftalýkÇalýþmaProgramý) {
+		HaftalýkÇalýþmaProgramý = haftalýkÇalýþmaProgramý;
+	}
+	
+	public double getOrtalama() {
+		return ortalama;
+	}
+	public void setOrtalama(double ortalama) {
+		this.ortalama = ortalama;
+	}
+	public String getDönem() {
+		return dönem;
+	}
+	public void setDönem(String dönem) {
+		this.dönem = dönem;
+	}
+	public int getAlabileceðiToplaKredi() {
+		return AlabileceðiToplaKredi;
+	}
+	public void setAlabileceðiToplaKredi(int alabileceðiToplaKredi) {
+		AlabileceðiToplaKredi = alabileceðiToplaKredi;
+	}
+	
+
+}
+
+
+class öðrenci13 extends DanýþmanHoca3
+{
+	/**
+	 oðrenci sýnýfý private olarak olusturulmuþtur.
+	  bu yuzden diþardan herkes bu sýnýfa eriþemez
+	 */
+	
+	
+	private String DanýþmaHocaÝsim;
+	public String getDanýþmaHocaÝsim() {
+		return DanýþmaHocaÝsim;
+	}
+	public void setDanýþmaHocaÝsim(String danýþmaHocaÝsim) {
+		DanýþmaHocaÝsim = danýþmaHocaÝsim;
+	}
+	private String HaftalýkÇalýþmaProgramý;
+	private double ortalama;
+	private String dönem;
+	private int AlabileceðiToplaKredi;
+	@SuppressWarnings("unused")
+	public String KrediAlabilirmi(double b) //
+	{
+		if(3.0<b&&b<3.49) {
+	    return "3 kredi alabilir";
+		}
+		else if(3.5<b) {
+			return "6 kredi alabilir";
+		}
+		else  {
+			return "kredi alamaz";
+		}
+	}
+	public String getHaftalýkÇalýþmaProgramý() {
+		return HaftalýkÇalýþmaProgramý;
+	}
+	public void setHaftalýkÇalýþmaProgramý(String haftalýkÇalýþmaProgramý) {
+		HaftalýkÇalýþmaProgramý = haftalýkÇalýþmaProgramý;
+	}
+	
+	public double getOrtalama() {
+		return ortalama;
+	}
+	public void setOrtalama(double ortalama) {
+		this.ortalama = ortalama;
+	}
+	public String getDönem() {
+		return dönem;
+	}
+	public void setDönem(String dönem) {
+		this.dönem = dönem;
+	}
+	public int getAlabileceðiToplaKredi() {
+		return AlabileceðiToplaKredi;
+	}
+	public void setAlabileceðiToplaKredi(int alabileceðiToplaKredi) {
+		AlabileceðiToplaKredi = alabileceðiToplaKredi;
+	}
+	
+	
+}
+
+
+class öðrenci14 extends DanýþmanHoca3
+
+{
+	/**
+	 oðrenci sýnýfý private olarak olusturulmuþtur.
+	  bu yuzden diþardan herkes bu sýnýfa eriþemez
+	 */
+	
+	
+	private String DanýþmaHocaÝsim;
+	public String getDanýþmaHocaÝsim() {
+		return DanýþmaHocaÝsim;
+	}
+	public void setDanýþmaHocaÝsim(String danýþmaHocaÝsim) {
+		DanýþmaHocaÝsim = danýþmaHocaÝsim;
+	}
+	private String HaftalýkÇalýþmaProgramý;
+	private double ortalama;
+	private String dönem;
+	private int AlabileceðiToplaKredi;
+	@SuppressWarnings("unused")
+	public String KrediAlabilirmi(double b) //
+	{
+		if(3.0<b&&b<3.49) {
+	    return "3 kredi alabilir";
+		}
+		else if(3.5<=b) {
+			return "6 kredi alabilir";
+		}
+		else  {
+			return "kredi alamaz";
+		}
+	}
+	public String getHaftalýkÇalýþmaProgramý() {
+		return HaftalýkÇalýþmaProgramý;
+	}
+	public void setHaftalýkÇalýþmaProgramý(String haftalýkÇalýþmaProgramý) {
+		HaftalýkÇalýþmaProgramý = haftalýkÇalýþmaProgramý;
+	}
+	
+	public double getOrtalama() {
+		return ortalama;
+	}
+	public void setOrtalama(double ortalama) {
+		this.ortalama = ortalama;
+	}
+	public String getDönem() {
+		return dönem;
+	}
+	public void setDönem(String dönem) {
+		this.dönem = dönem;
+	}
+	public int getAlabileceðiToplaKredi() {
+		return AlabileceðiToplaKredi;
+	}
+	public void setAlabileceðiToplaKredi(int alabileceðiToplaKredi) {
+		AlabileceðiToplaKredi = alabileceðiToplaKredi;
+	}
+	
+	
+}
+
+
+class öðrenci15 extends DanýþmanHoca3
+{
+	/**
+	 oðrenci sýnýfý private olarak olusturulmuþtur.
+	  bu yuzden diþardan herkes bu sýnýfa eriþemez
+	 */
+	
+	
+	private String DanýþmaHocaÝsim;
+	public String getDanýþmaHocaÝsim() {
+		return DanýþmaHocaÝsim;
+	}
+	public void setDanýþmaHocaÝsim(String danýþmaHocaÝsim) {
+		DanýþmaHocaÝsim = danýþmaHocaÝsim;
+	}
+	private String HaftalýkÇalýþmaProgramý;
+	private double ortalama;
+	private String dönem;
+	private int AlabileceðiToplaKredi;
+	@SuppressWarnings("unused")
+	public String KrediAlabilirmi(double b) //
+	{
+		if(3.0<b&&b<3.49) {
+	    return "3 kredi alabilir";
+		}
+		else if(3.5<=b) {
+			return "6 kredi alabilir";
+		}
+		else  {
+			return "kredi alamaz";
+		}
+	}
+	public String getHaftalýkÇalýþmaProgramý() {
+		return HaftalýkÇalýþmaProgramý;
+	}
+	public void setHaftalýkÇalýþmaProgramý(String haftalýkÇalýþmaProgramý) {
+		HaftalýkÇalýþmaProgramý = haftalýkÇalýþmaProgramý;
+	}
+	
+	public double getOrtalama() {
+		return ortalama;
+	}
+	public void setOrtalama(double ortalama) {
+		this.ortalama = ortalama;
+	}
+	public String getDönem() {
+		return dönem;
+	}
+	public void setDönem(String dönem) {
+		this.dönem = dönem;
+	}
+	public int getAlabileceðiToplaKredi() {
+		return AlabileceðiToplaKredi;
+	}
+	public void setAlabileceðiToplaKredi(int alabileceðiToplaKredi) {
+		AlabileceðiToplaKredi = alabileceðiToplaKredi;
+	}
+	
+
+}
+
+
+
+
